@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign-up</title>
+        <link href="sign-up.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="card">
+            <h2 class="ca">Sign up</h2> <br>
+            <label class="cb">Name</label> <br> 
+            <input class="cb1" name="name" placeholder="Enter your name" onchange="changeHandler(event,'name')"> <br>
+            <label class="cc">Email ID</label> <br>
+            <input class="cc1" name="email"placeholder="Enter your email-id" onchange="changeHandler(event,'email')"> <br>
+            <label class="cd">Phone Number</label> <br>
+            <input class="cd1" name="number" placeholder="Enter your number" onchange="changeHandler(event,'number')"> <br>
+            <label class="ce">Create Password</label> <br>
+            <input class="ce1" name="password" placeholder="Enter 6 character or more" onchange="changeHandler(event,'password')"> <br>
+            <label class="cf">Confirm Password</label> <br>
+            <input class="cf1" name="pass" placeholder="Retype your password" onchange="changeHandler(event,'pass')"> <br>
+            <button class="submit-button" type="button" onclick="clickHandler()">Submit</button>
+        </div>
+
+
+
+
+        <script src="sign-up.js" type="text/javascript"></script> 
+    </body>
+</html>

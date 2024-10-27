@@ -1,0 +1,83 @@
+.top{
+    background-color: rgb(195, 70, 188);
+    width: 900px; height: 650px; border-style: solid;
+    border-color: rgb(195, 70, 188);
+    margin-top: 10px; margin-left: 20%;
+}
+.body{
+    background-color: white;
+    width: 850px; height: 550px;
+    border-style: solid; border-color: white;
+    margin-top: 65px; margin-left: 2.5%; 
+    display: flex;
+}
+.b-left{
+    background-color: white; border-color: whitesmoke;
+    width: 320px; height:470px;
+    border-style: solid;
+    margin-top: 40px; margin-left: 8%;
+}
+h2{
+    margin-left: 7%;
+}
+.para{
+    font-size: 17px;
+    margin-left: 8%;
+}
+.email-1, .password-1{
+    font-weight: bold; padding-top: 10px;
+    margin-left: 8%;
+}
+.ba{
+    color: rgb(144, 34, 138) ;
+    text-decoration: underline;
+}
+.ba:hover{
+    cursor: pointer;
+}
+.password2{
+    margin-left: 23%;
+    color: rgb(144, 34, 138);
+    text-decoration: underline;  
+}
+.password2:hover{
+    cursor: pointer;
+}
+.b-right{
+    margin-top: 60px;
+    margin-left: 20px;
+    height: 300px;
+    width: 20%;
+}
+.i-1, .i-2{
+    height: 35px;  width: 260px;
+    border-radius: 5px; border-style: solid;
+    border-color: rgb(144, 34, 138); 
+    margin-top:10px; margin-bottom: 10px;  margin-left: 8%;
+}
+.i-3{
+    margin-top: 10px;  margin-left: 7%;
+}
+.login-button{
+    background-color: rgb(144, 34, 138) ;
+    height: 40px; width: 270px;
+    border-color: rgb(144, 34, 138) ;
+    border-style: solid; color: white;
+    border-radius: 5px; margin-top: 15px; margin-left: 8%;
+}
+.para1{
+    text-align: center;
+}
+.one{
+    border-color: rgb(247, 57, 57);
+    border-style: solid; border-radius: 5px;
+    width: 120px; height: 40px;  margin-left: 8%;
+    font-size: 12px; background-color: white;
+}
+.two{
+    border-color: rgb(70, 70, 247);
+    border-style: solid;  border-radius: 5px;
+    font-size: 12px;  margin-left: 8%;
+    width: 120px; height: 40px; 
+    background-color: white;  margin-left: 10px;
+} 

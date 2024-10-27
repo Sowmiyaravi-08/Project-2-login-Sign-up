@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <link href="login.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="top">
+            <div class="body">
+            <div class="b-left">
+                <h2>Login</h2>
+                <p class="para">Doesn't have an account yet? <a class="ba" href="http://127.0.0.1:5501/sign-up.html">Sign Up</a> </p>  
+                <label class="email-1"> Email Address </label> <br>
+                <input class="i-1" name="email" placeholder="you@example.com" onchange="changeHandler(event,'email')">  <br>
+                <label class="password-1"> Password </label> <a class="password2">Forget Password?</a> 
+                <input class="i-2" name="password" placeholder="Enter 6 character or more" onchange="changeHandler(event,'pass')"> <br>
+                <input class="i-3" type="checkbox">Remember me <br> 
+                <button class="login-button" type="button" onclick="clickHandler()"> LOGIN </button> <br>
+                <!-- <button  type="button" onclick="getDataHandler()"> GET DATA </button> -->
+                <p class="para1">or login with</p>
+                <button class="one"> <i class="fa fa-google" style="font-size:16px;color:red"></i>  Google</button>
+                <button class="two"> <i class="fa fa-facebook-f" style="font-size:16px ;color:rgba(19, 2, 96, 0.9)" ></i> facebook</button>
+            </div> 
+            <div class="b-right">
+                <img src="logo-image.jpg">
+            </div>
+        </div>   
+    </div>
+
+
+
+
+
+
+    <script src="login.js" type="text/javascript"></script>    
+</body>
+</html>

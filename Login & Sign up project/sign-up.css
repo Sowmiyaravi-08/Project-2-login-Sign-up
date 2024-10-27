@@ -1,0 +1,31 @@
+.card{
+    border-color: whitesmoke; 
+    height: 650px; width: 400px;
+    border-style: solid;
+    margin-left: 35%; margin-top: 1%;
+    background-image: url("background-img.avif")
+}
+.card h2{
+    text-align: center;
+    font-size: 35px;
+}
+.cb, .cc, .cd, .ce, .cf{
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 10%;
+}
+.cb1, .cc1, .cd1, .ce1, .cf1{
+    height: 30px; width: 300px;
+    margin-left: 10%; margin-top:15px ;
+    margin-bottom: 20px; border-color: rgb(17, 50, 61); 
+    border-style: solid;
+}
+.submit-button{
+    margin-top: 3%; margin-left: 30%;
+    height: 40px; width: 150px;
+    font-size: 24px;
+    background-color: rgb(24, 118, 150); 
+    color: white; border-color: rgb(24, 118, 150);
+    border-style: solid;
+    font-weight: 550;
+}
